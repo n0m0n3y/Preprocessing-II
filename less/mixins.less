@@ -13,3 +13,24 @@ color:white;
 padding: 5%;
 border-radius: 13px;
 };
+
+
+  
+.button(@bg-color: @eastern-blue, @width: 200px, @font-color:white) {
+display: block;
+background-color: @bg-color;
+margin: 0 10px 20px;
+cursor: pointer;
+width: @width;
+height: 35px;
+font-size: 2rem;
+border-radius: 10px;
+color: @font-color;
+text-align: center;
+padding-top: 3%;
+
+&:hover {
+background-color: @font-color;
+color: @bg-color;
+}
+}
